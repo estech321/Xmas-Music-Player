@@ -59,32 +59,32 @@ void loop() {
     if (buttons & BUTTON_UP) {
       lcd.print("Greensleeves");
       lcd.setBacklight(RED);
-      int melody = Greensleeves;
+      melody = Greensleeves;
       playMelody();
     }
     if (buttons & BUTTON_DOWN) {
       lcd.print("Rick Roll");
       lcd.setBacklight(YELLOW);
-      int melody = RickRoll;
+      melody = RickRoll;
       playMelody();
     }
     if (buttons & BUTTON_LEFT) {
       lcd.print("Merry Xmas");
       lcd.setBacklight(GREEN);
-      int melody = MerryChristmas;
+      melody = MerryChristmas;
       playMelody();
     }
     if (buttons & BUTTON_RIGHT) {
       lcd.print("Ode to Joy");
       lcd.setBacklight(TEAL);
-      int melody = OdetoJoy;
+      melody = OdetoJoy;
       playMelody();
 
     }
     if (buttons & BUTTON_SELECT) {
       lcd.print("Silent Night");
       lcd.setBacklight(VIOLET);
-      int melody = SilentNight;
+      melody = SilentNight;
       playMelody();
     }
   }
